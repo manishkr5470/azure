@@ -16,7 +16,7 @@ jobs:
 
       - name: Clone Azure DevOps repo
         run: |
-          git clone https://$AZURE_PAT@dev.azure.com/your-org/your-project/_git/your-repo azure-repo
+          git clone https://susantadutta@dev.azure.com/susantadutta/Reusable_pipeline_github_action/_git/Reusable_pipeline_github_action azure-repo
         env:
           AZURE_PAT: ${{ secrets.AZURE_PAT }}
 
